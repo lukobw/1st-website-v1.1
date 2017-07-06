@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway&subset=latin-ext');
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    background-color: #ccc;
+}
+
+.container {
+    width: 700px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+header {
+    padding: 40px;
+    background: url(https://images.pexels.com/photos/256867/pexels-photo-256867.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb) 10% 45%;
+}
+
+header h1 {
+    font-size: 48px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+header h1,
+header p {
+    text-align: center;
+    color: #fff;
+}
+
+section {
+    padding: 0 20%;
+}
+
+.about h2 {
+    font-size: 28px;
+    margin-top: 60px;
+    color: #1abc9c;
+}
+
+.interests h2 {
+    margin-top: 40px;
+    color: #f1c40f;
+}
+
+footer {
+    margin-top: 60px;
+    padding: 30px;
+    background-color: #7f8c8d;
+}
+
+footer p {
+    text-align: center;
+    color: #2c3e50;
+}
+
+footer a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #bdc3c7;
+}
+
+h1,
+h2 {
+    font-family: 'Raleway', sans-serif;
+}
